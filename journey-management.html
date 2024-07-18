@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Management</title>
+    <link rel="icon" href="../asset/img/logo.png">
+    <style> 
+    /* styles.css */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #FEBD25E6;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    section {
+        padding: 20px 40px;
+    }
+
+    h2 {
+        color: #FEBD25E6;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    </style>
+</head>
+<body>
+
+      
+  <header>
+    <div class="navbar">
+
+      <a href="index.html" class="logo">
+        <img id="ajlogo" src="../asset/img/logo.png" alt="Logo" />
+      </a>
+      <div class="menu">
+        <img src="../wp-content/uploads/sites/21/2024/06/menu.png" alt="Menu" class="menu-icon">
+        <div class="submenu">
+          <a href="../aj-transport/about/index.html">About</a>
+          <a href="../aj-transport/operate/index.html">How we operate</a>
+          <a href="../aj-transport/services/index.html">Services</a>
+          <a href="../aj-transport/contact/index.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <style>
+    header {
+      background-color: white;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+
+
+    h2 {
+      color: #FEBD25E6;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .logo {
+        margin-bottom: 10px;
+      }
+
+      .menu {
+        width: 100%;
+        text-align: right;
+      }
+
+      .submenu {
+        width: 100%;
+        left: 0;
+      }
+
+      .navbar {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .submenu {
+        margin-left: 0px;
+        margin-right: 0px;
+
+      }
+
+      #about-title {
+        padding-left: 20px;
+        padding-right: 20px
+      }
+
+      #desc-about {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+
+    
+    }
+
+    @media (min-width: 601px) {
+      #about-title {
+        padding-left: 175px;
+        padding-right: 175px
+      }
+      #desc-about {
+        padding-left: 175px;
+        padding-right: 175px
+      }
+
+      .navbar {
+        margin-left: 190px;
+        margin-right: 190px;
+      }
+
+      .submenu {
+        margin-left: 160px;
+        margin-right: 160px;
+
+      }
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .menu {
+      position: relative;
+    }
+
+    .menu-icon {
+      width: 30px;
+      cursor: pointer;
+    }
+
+    .submenu {
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      position: fixed;
+      right: 0;
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      transition: max-height 0.3s ease-out;
+    }
+
+    .submenu a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .submenu a:hover {
+      background-color: #ddd;
+    }
+
+    #ajlogo {
+      height: 40px;
+    }
+  </style>
+
+
+
+    <main>
+        
+        <h1>Journey Management</h1>
+        <img src="../asset/img/vehicle.png"  />
+        <section id="recruitment">
+            <h2>Authorized Route</h2>
+            <h3>Fatigue Policy</h3>
+            <p>AJ Transport developed policies on drivers’ working, driving and rest hours to ensure they do not feel fatigued while on the road.</p>
+            <h3>Fatigue Monitoring</h3>
+            <p>Medical fitness checks include eyesight tests from the local authority and Tristar-approved hospitals. All recruited drivers are subject to medical fitness every two years, and drivers above 45 are subject to medical fitness every year.</p>
+        </section>
+        <section id="training">
+            <h2>Route Hazard Mapping (RHM)</h2>
+            <h3>On-board Induction</h3>
+            <p>The awareness session covers HSEQ policies, Procedure, Emergency Response, Stop Work Authority, First Aid, Firefighting, Journey Plan Guidelines, Working, Driving, Rest Hours, Bulk/Pack Product Loading/Unloading, and Product Securing.</p>
+            <h3>Mentoring</h3>
+            <p>: Fatigue monitoring devices are installed in the vehicle, which allows the detection of early signs of fatigue and alerts the driver and the base monitoring station for any fatigue related issue.</p>
+        </section>
+        <section id="final-evaluation">
+            <h2>Final Evaluation</h2>
+            <h3>Training Evaluation</h3>
+            <p>Pre and post training evaluations are conducted for their effectiveness.</p>
+            <h3>HSE Passport</h3>
+            <p>Evaluating the records of a driver’s training, Incident, Disciplinary Notices, PPE issuance and Appreciation/Achievement Records. Also availability of information about Emergency Numbers, Emergency Response Procedures, and Loading/Offloading Steps.</p>
+        </section>
+        <section id="retraining">
+            <h2>Re-Training and Retention</h2>
+            <h3>Refresher Training</h3>
+            <p>We conduct periodical refresher training through scheduled training calendar, Toolbox Talks, Quarterly Safety Meetings and Reflective Learning Sessions.</p>
+            <h3>Drivers League System</h3>
+            <p>Every month drivers are awarded and recognized through the Drivers’ League System. As per the system, drivers can earn points on merits like accident/compliant free month, number of near miss reported, and number of toolbox sessions attended. They can also lose points on accidents, customer complaints,
+        </p>
+        </section>
+        <section id="retraining"
+        >
+            </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AJ Transport</p>
+    </footer>
+
+
+    <script>
+        // scripts.js
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.querySelector('.menu-icon');
+            const submenu = document.querySelector('.submenu');
+
+            menuIcon.addEventListener('mouseenter', function () {
+                submenu.style.maxHeight = submenu.scrollHeight + "px";
+            });
+
+            menuIcon.addEventListener('mouseleave', function () {
+                submenu.style.maxHeight = "0";
+            });
+
+            submenu.addEventListener('mouseenter', function () {
+                submenu.style.maxHeight = submenu.scrollHeight + "px";
+            });
+
+            submenu.addEventListener('mouseleave', function () {
+                submenu.style.maxHeight = "0";
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Management</title>
+    <link rel="icon" href="../asset/img/logo.png">
+    <style> 
+    /* styles.css */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #FEBD25E6;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    section {
+        padding: 20px 40px;
+    }
+
+    h2 {
+        color: #FEBD25E6;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    </style>
+</head>
+<body>
+
+      
+  <header>
+    <div class="navbar">
+
+      <a href="index.html" class="logo">
+        <img id="ajlogo" src="../asset/img/logo.png" alt="Logo" />
+      </a>
+      <div class="menu">
+        <img src="../wp-content/uploads/sites/21/2024/06/menu.png" alt="Menu" class="menu-icon">
+        <div class="submenu">
+          <a href="../aj-transport/about/index.html">About</a>
+          <a href="../aj-transport/operate/index.html">How we operate</a>
+          <a href="../aj-transport/services/index.html">Services</a>
+          <a href="../aj-transport/contact/index.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <style>
+    header {
+      background-color: white;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+
+
+    h2 {
+      color: #FEBD25E6;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .logo {
+        margin-bottom: 10px;
+      }
+
+      .menu {
+        width: 100%;
+        text-align: right;
+      }
+
+      .submenu {
+        width: 100%;
+        left: 0;
+      }
+
+      .navbar {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .submenu {
+        margin-left: 0px;
+        margin-right: 0px;
+
+      }
+
+      #about-title {
+        padding-left: 20px;
+        padding-right: 20px
+      }
+
+      #desc-about {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+
+    
+    }
+
+    @media (min-width: 601px) {
+      #about-title {
+        padding-left: 175px;
+        padding-right: 175px
+      }
+      #desc-about {
+        padding-left: 175px;
+        padding-right: 175px
+      }
+
+      .navbar {
+        margin-left: 190px;
+        margin-right: 190px;
+      }
+
+      .submenu {
+        margin-left: 160px;
+        margin-right: 160px;
+
+      }
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .menu {
+      position: relative;
+    }
+
+    .menu-icon {
+      width: 30px;
+      cursor: pointer;
+    }
+
+    .submenu {
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      position: fixed;
+      right: 0;
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      transition: max-height 0.3s ease-out;
+    }
+
+    .submenu a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .submenu a:hover {
+      background-color: #ddd;
+    }
+
+    #ajlogo {
+      height: 40px;
+    }
+  </style>
+
+
+
+    <main>
+        
+        <h1>Vehicle Management</h1>
+        <img src="../asset/img/vehicle.png"  />
+        <section id="recruitment">
+            <h2>Vehicle Standards</h2>
+            <h3>Vehicle Selection</h3>
+            <p>Tristar follows customers and local and international standards (ADR) while selecting vehicles.</p>
+            <h3>Vehicle Specifications</h3>
+            <p>With Low Emission Vehicles, Reverse Warning Devices, Battery with Master Switch, Intrinsically Safe Wiring, ABS/EBS Braking System, Brake Interlock, Rollover Protection and Handrails in Road Tankers, Cabin Interior which is ergonomically designed.</p>
+        </section>
+        <section id="training">
+            <h2>HSE Critical Equipment</h2>
+            <h3>Safety Equipment</h3>
+            <p>Tristar vehicles are equipped with First Aid Box, Fire Extinguishers, Spill Kits, Reflective Cones, 3-Point Seat Belt, Head Restraint, Rollover Warning Device, Fatigue Monitoring Device, and On Board Computer/In-Vehicle Monitoring System.</p>
+            <h3>Vehicle Critical Equipment </h3>
+            <p>Including but not limited to PTO and Pump, API Adaptors and Bottom Valves, Hoses and Fittings, Engine Shield Protection, King Pin and 5th Wheel, Under Run Protections, Exhaust System, Manhole Covers with PV Vent Valves, Tyre, Strangler, Lights and Wiring.</p>
+        </section>
+        <section id="final-evaluation">
+            <h2>Maintenance Staff</h2>
+            <h3>Technical Staff</h3>
+            <p>PTristar employs skilled and competent maintenance personnel for undertaking maintenance of the fleet. Detailed job descriptions are available for all positions.</p>
+            <h3>Training</h3>
+            <p>Ongoing trainings are carried out for the maintenance team to enhance competence where a new system, equipment or vehicle is introduced.</p>
+        </section>
+        <section id="retraining">
+            <h2>Preventive Maintenance</h2>
+            <h3>Type of Maintenance</h3>
+            <p>Preventive maintenance has three types, Type A – PM is performed for vehicles at the specified intervals based on the category of vehicle; Type B - PM is performed annually inspection for all vehicles to assure the road worthiness; and Type C – PM is performed annually for all attachments (tankers and trailers).</p>
+            <h3>Inspection and Testing</h3>
+            <p>Inspection and testing of all critical equipment are being carried out as per OEM/required interval. The driver before beginning of each shift shall carry out daily inspection of the vehicle and the checklist is duly filled and signed by the driver on completion of inspection.</p>
+        </section>
+        <section id="retraining"
+        >
+            </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AJ Transport</p>
+    </footer>
+
+
+    <script>
+        // scripts.js
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.querySelector('.menu-icon');
+            const submenu = document.querySelector('.submenu');
+
+            menuIcon.addEventListener('mouseenter', function () {
+                submenu.style.maxHeight = submenu.scrollHeight + "px";
+            });
+
+            menuIcon.addEventListener('mouseleave', function () {
+                submenu.style.maxHeight = "0";
+            });
+
+            submenu.addEventListener('mouseenter', function () {
+                submenu.style.maxHeight = submenu.scrollHeight + "px";
+            });
+
+            submenu.addEventListener('mouseleave', function () {
+                submenu.style.maxHeight = "0";
+            });
+        });
+    </script>
+</body>
+</html>
