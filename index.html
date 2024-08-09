@@ -5283,10 +5283,10 @@ body {
 			.nav-service {
 				display: flex;
 				list-style: none;
-				justify-content: space-around;
+				justify-content: center;
 				padding: 0;
 				margin: 0;
-				flex-wrap: nowrap;
+				align-items: center;
 				text-align: center;
 				/*	border-bottom: 1px solid #ddd; */
 			}
@@ -5304,7 +5304,7 @@ body {
 			.nav-item-service {
 				flex: 1;
 				margin-right: 1rem;
-				padding: 10px;
+				padding: 5px;
 				text-align: center; /* Centers the text within each item */
 			}
 
@@ -5320,6 +5320,7 @@ body {
 				text-decoration: none;
 				padding: 0.5rem 1rem;
 				color: #000;
+				display: block;
 				border-bottom: 2px solid transparent;
 				transition: color 0.3s, border-bottom 0.3s;
 			}
@@ -5330,6 +5331,7 @@ body {
 
 			.nav-link-service.active {
 				color: #ffc423;
+				justify-content: center;
 			}
 
 			.nav-link-service.disabled {
@@ -5357,7 +5359,7 @@ body {
 			</div>
 			<ul class="nav-service" id="myTab-service">
 				<li class="nav-item-service">
-					<a class="nav-link-service active" href="#content-a-service"> GESTION DES CONDUCTEURS </a>
+					<a class="nav-link-service active" href="#content-a-service">GESTION DES CONDUCTEURS</a>
 				</li>
 				<li class="nav-item-service">
 					<a class="nav-link-service" href="#content-b-service"> GESTION DES VÉHICULES </a>
